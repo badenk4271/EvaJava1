@@ -15,13 +15,12 @@ public class DatosPersonales
  public static void main(String[] args)
  {
   String nombre;//paso 2 
-  int edad;
-  int incremento;
+  int edad=0;
+  int incremento=0;
   nombre =(JOptionPane.showInputDialog("Ingrese su nombre"));//paso 3 el showInput datos de entarada por ventana
   edad = Integer.parseInt (JOptionPane.showInputDialog("Ingrese su edad"));
   incremento = edad+20;
-  JOptionPane.showMessageDialog(null,"Bienvenido "+nombre+ "en 20 años su edad sera"+(incremento)+ "años");
-  
+  JOptionPane.showMessageDialog(null,"Bienvenido "+nombre+ "en 20 años su edad sera"+incremento+ "años");
   
   
  }   
