@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package evajava1;
+import java.util.Scanner;
 
 /**
  *
